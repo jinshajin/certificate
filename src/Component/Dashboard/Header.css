@@ -1,0 +1,29 @@
+.main-head{
+    height: 50px;
+    background-color: white;
+
+}
+
+
+.me-2{
+    border-radius:100px;
+    width: 160px;
+    height: 30px;
+    background-color: #f3f3f9;
+}
+
+.hicon{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+#navbarScrollingDropdown{
+    padding-right: 150px;
+}
+.drop{
+    color: red;
+}
+.d-flex{
+    padding-left: 10px;
+}
+

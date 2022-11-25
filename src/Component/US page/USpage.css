@@ -1,0 +1,87 @@
+#exampleName{
+    width: 259px;
+    height: 10x;
+    font-size: smaller;
+    background-color: #f3f3f3;
+    
+
+}
+#exampleDesignation{
+    width: 259px;
+    height: 10x;
+    font-size: smaller;
+    background-color: #f3f3f3;
+}
+
+#exampleEmail{
+    width: 259px;
+    height: 10x;
+    font-size: smaller;
+    background-color: #f3f3f3;
+}
+#exampleJoiningDate{
+    width: 259px;
+    height: 10x;
+    font-size: smaller;
+    background-color: #f3f3f3;
+}
+#exampleDOB{
+    width: 259px;
+    height: 10x;
+    font-size: smaller;
+    background-color: #f3f3f3;
+    
+}
+#exampleAddress{
+    width: 259px;
+    height: 10x;
+    font-size: smaller;
+    background-color: #f3f3f3;
+}
+#examplePhone{
+    width: 259px;
+    height: 10x;
+    font-size: smaller;
+    background-color: #f3f3f3;
+    
+}
+#exampleDOL{
+    width: 259px;
+    height: 10x;
+    font-size: smaller;
+    background-color: #f3f3f3;
+}
+.bottombtn{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 40px;
+    
+    
+}
+.form{
+    padding-left: 20px;
+    padding-top: 15px;
+}
+.bottombtn2{
+    padding-right: 60px;
+    
+
+}
+.bottombtn{
+    padding-top: 1px;
+}
+#exampleFile{
+    border: none;
+    padding-left: 30px;
+    width: 250px;
+    height: 30px;
+    font-size: smaller;
+}
+
+
+
+.bottombtn1{
+    padding-right: 10px;
+   
+   
+}

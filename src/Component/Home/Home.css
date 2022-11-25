@@ -1,0 +1,63 @@
+.navcolor{
+    background-color: #3b4da1
+}
+
+.banner{
+    background-color: #3b4da1;
+    height: 100vh;
+    border-top: 0.1px solid rgb(127, 131, 167);
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.banner .left{
+    color: white;
+    left: 228px;
+    top: 282px;
+    right:1290px;
+    width: 402px;
+    height: 126px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri;
+    margin-top:150px;
+    margin-left: 190px;
+    
+
+}
+
+.header{
+    margin-left: 195px;
+    font-weight: bolder;
+
+}
+.hbtn{
+    width: 85px;
+    height: 35px;
+    color: #34c38f;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color:#9aa2ce
+    
+
+}
+.btnOne{
+    width: 142px;
+    height: 30px;
+}
+#bg{
+    background-color: #3b4da1;
+}
+img{
+    height: 274px;
+    width: 380px;
+    margin-left: -84px;
+    margin-top: -50px
+}
+.h3{
+    font-weight: 100px;
+    font-size: 25px;
+    margin-left: 3px;
+}
+

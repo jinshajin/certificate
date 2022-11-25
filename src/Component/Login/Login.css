@@ -1,0 +1,61 @@
+.l-card{
+    width:380px;
+    height:550px;
+    margin-top: 20px;
+    
+}
+h3{
+    font-weight: bold;
+    font-size:medium;
+    margin-left: 35px;
+}
+.bottom{
+    margin-top: 90px;
+    font-size: small;
+    display: flex;
+    display: flex;
+    justify-content: center;
+
+}
+.text{
+    margin-top: 20px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+}
+.h5-login{
+    margin-top: 30px;
+    font-size: small;
+    color: #556ee6;
+    margin-left: 40px;
+}
+.box-name{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 40px;
+    color: #90909a;
+    font-weight:700;
+    
+   
+
+}
+.type-box{
+    border-radius: 4px;
+    width:250px;
+   margin-left: 40px;
+   font-size: 12px;
+   border: 1px solid #e2e5e9;
+}
+.sub-div{
+    display: flex;
+    justify-content: center;
+}
+.login-box{
+    margin-top: 50px;
+   background-color: #556ee6;
+   width:250px;
+   margin-left: 40px;
+   font-size: small;
+}

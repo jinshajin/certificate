@@ -1,0 +1,19 @@
+.sidebar-top{
+    display: flex;
+    font-size: small;
+}
+.sidebar-bottom{
+    display: flex;
+}
+.sidebar-main{
+padding-right: 9px;
+}
+.sidebar-name{
+    padding-left: 8px;
+}
+.sidebar-bottom{
+    color: #8a8e9f;
+    margin-top: 6px;
+    font-size: small;
+
+}

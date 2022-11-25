@@ -1,0 +1,39 @@
+.icon1{
+    
+    margin-left: 8px;
+    color:#556ee6 ;
+}
+.icon2{
+    
+    margin-left: 8px;
+    color: #50a5f1;
+}
+.icon3{
+    
+    margin-left: 8px;
+    color: #f46a6a;
+}
+.footer{
+    margin-top: 70px;
+    
+    
+}
+
+.group{
+    font-size:12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-size: 10px;
+    
+}
+.mainhead{
+    font-weight:bold
+}
+li{
+ list-style-type: none;
+ color:#9aa2ce;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    
+}

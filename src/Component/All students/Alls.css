@@ -1,0 +1,55 @@
+.main-card{
+   
+    /* height: 550px; */
+    
+    background-color: #f8f8fb;
+    border-radius: 1px;
+    
+}
+.subcard{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.Sbtn{
+    margin-top: 5px;
+    width: 156px;
+    border-radius: 40px;
+    font-size: small;
+    height: 25px;
+    margin-top: 20px;
+}
+h5{
+    padding-top: 30px;
+}
+.show{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+   
+}
+.input{
+    height: 20px;
+    width: 35px;
+   
+}
+p{
+    color: black;
+
+
+}
+Table{
+    font-size: 10px;
+}
+.page{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.page2{
+ 
+    border: none;
+    border-radius: 100px;
+    width:27px;
+    height: 25px;
+    font-size: smaller;
+}
