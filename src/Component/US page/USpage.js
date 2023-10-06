@@ -37,7 +37,7 @@ useEffect(()=>{
 
   useEffect(() => {
     dispatch(singleviewApi(id));
-  }, [dispatch]);
+  },);
 
 
 

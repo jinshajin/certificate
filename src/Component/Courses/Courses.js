@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import Layout from '../Layout/Layout'
-import {Card,Table,Col,Row,Pagination,PaginationItem,PaginationLink} from 'reactstrap';
+import {Card,Table,Col,Row} from 'reactstrap';
 import { RiPencilFill} from "react-icons/ri";
 import { BsXLg} from "react-icons/bs";
-import { useNavigate, useParams,Link } from 'react-router-dom';
+import { useNavigate,Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { allcourseApi, deletecourseApi } from '../../Store/Course API/useApi';
 import {map,range} from "lodash"
@@ -21,7 +21,7 @@ function Courses() {
 
   
 const navigate = useNavigate()
-const params = useParams()
+
 
 const deleteCourse= (id) => {
   dispatch(deletecourseApi(id,navigate))
@@ -85,10 +85,10 @@ useEffect(() =>{
       {key=key+1}
       </th>
       <td>
-       {item?. id}
+       {item?.id}
       </td>
       <td>
-      {item?. course_name}
+      {item?.course_name}
       </td>
       <td>
       {item?.duration }
@@ -103,7 +103,7 @@ useEffect(() =>{
       <Link to={`/updatecourse/${item?.id}`}><RiPencilFill/></Link>
 
       
-      <a style={{color:'red'}}>< BsXLg onClick={()=> {deleteCourse(item?.id)}}/></a>
+      <a href="style={{color:'red'}}"><BsXLg onClick={()=>{deleteCourse(item?.id)}}/></a>
       </td>
      
     </tr>
@@ -171,7 +171,7 @@ useEffect(() =>{
                     {map(pageArray, (page) => (
                       <Col
                         onClick={() => setPages(page)}
-                        className={pages == page && "active"}
+                        className={pages === page && "active"}
                         style={{
                           display: "flex",
                           alignContent: "center",

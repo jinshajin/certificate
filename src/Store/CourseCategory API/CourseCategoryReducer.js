@@ -1,4 +1,4 @@
-import React from 'react'
+
 import{
     CREATE_COURSE_CATEGORY_REQUEST,CREATE_COURSE_CATEGORY_SUCCESS,CREATE_COURSE_CATEGORY_FAIL, ALL_COURSE_CATEGORY_REQUEST, ALL_COURSE_CATEGORY_SUCCESS, ALL_COURSE_CATEGORY_FAIL,UPDATE_COURSE_CATEGORY_REQUEST,UPDATE_COURSE_CATEGORY_SUCCESS,UPDATE_COURSE_CATEGORY_FAIL, GET_COURSE_CATEGORY_DETAILS_REQUEST, GET_COURSE_CATEGORY_DETAILS_SUCCESS, GET_COURSE_CATEGORY_DETAILS_FAIL, DELETE_COURSE_CATEGORY_REQUEST, DELETE_COURSE_CATEGORY_SUCCESS, DELETE_COURSE_CATEGORY_FAIL
 }from "./actionType";
@@ -122,25 +122,25 @@ const CourseCategoryReducer = (state = initiailState, action) =>{
 //.....................DELETECOURSECATEGORY...................................//
 
 
-              case GET_COURSE_CATEGORY_DETAILS_REQUEST:
-                return {
-                  ...state,
-                  loading: true,
-                };
+              // case GET_COURSE_CATEGORY_DETAILS_REQUEST:
+              //   return {
+              //     ...state,
+              //     loading: true,
+              //   };
           
-              case GET_COURSE_CATEGORY_DETAILS_SUCCESS:
-                return {
-                  ...state,
-                  loading: false,
-                  getcoursecategoryDetails: action.payload,
-                  error: "",
-                };
-              case GET_COURSE_CATEGORY_DETAILS_FAIL:
-                return {
-                  ...state,
-                  loading: false,
-                  error: action.payload,
-                };
+              // case GET_COURSE_DETAILS_SUCCESS:
+              //   return {
+              //     ...state,
+              //     loading: false,
+              //     getcoursecategoryDetails: action.payload,
+              //     error: "",
+              //   };
+              // case GET_COURSE_CATEGORY_DETAILS_FAIL:
+              //   return {
+              //     ...state,
+              //     loading: false,
+              //     error: action.payload,
+              //   };
       
 
 

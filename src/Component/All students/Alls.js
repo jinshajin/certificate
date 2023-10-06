@@ -23,7 +23,7 @@ const Alls =() => {
 
  useEffect(() =>{
   dispatch(studentApi())
- },[])
+ })
 
 
 
@@ -157,7 +157,7 @@ const tableData = allstudents?.results
                     {map(pageArray, (page) => (
                       <Col
                         onClick={() => setPages(page)}
-                        className={pages == page && "active"}
+                        className={pages === page && "active"}
                         style={{
                           display: "flex",
                           alignContent: "center",

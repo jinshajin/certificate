@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Layout from "../Layout/Layout";
-import { Link, useNavigate, useParams } from "react-router-dom";
-import { Card, Button, Table, Input, Col, Row } from "reactstrap";
+import { Link, useNavigate } from "react-router-dom";
+import { Card, Button, Table,Col, Row } from "reactstrap";
 import { useDispatch, useSelector } from "react-redux";
 import {
   allstudentcourseApi,
@@ -165,7 +165,7 @@ function Studentcourse() {
                   {map(pageArray, (page) => (
                     <Col
                       onClick={() => setPages(page)}
-                      className={pages == page && "active"}
+                      className={pages === page && "active"}
                       style={{
                         display: "flex",
                         alignContent: "center",

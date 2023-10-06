@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Layout from "../Layout/Layout";
 import { Card, Col, FormGroup, Label, Input, Button, Form } from "reactstrap";
-import { useNavigate, useParams, Link } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { getcoursecategoryApi,updatecoursecategoryApi } from "../../Store/CourseCategory API/useApi";
 
@@ -26,7 +26,7 @@ function UpdateCC() {
 
   useEffect(() => {
     dispatch(getcoursecategoryApi(params.id));
-  }, []);
+  },);
 
   useEffect(() => {
     setState(single);

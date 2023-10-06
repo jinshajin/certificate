@@ -4,10 +4,9 @@ import { Button, Container } from "react-bootstrap";
 import logo from "./logo.png";
 import greenbg from "./greenbg.jpeg";
 import { singleviewApi } from "../../Store/Students API/useApi";
-import { useNavigate, useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
-import { Row, Col } from "reactstrap";
 import { map } from "lodash";
 
 function Certificate() {

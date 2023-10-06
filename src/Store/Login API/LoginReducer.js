@@ -82,7 +82,7 @@ export default LoginReducer;
 
 
 export const LogoutReducer = (state = initiailState, action) => {
-  switch (action.type) {
+  switch(action.type) {
     case LOGOUT_REQUEST:
       return {
         ...state,
@@ -100,5 +100,6 @@ export const LogoutReducer = (state = initiailState, action) => {
         loading: false,
         error: action.payload,
       };
+      default:
   }
 };

@@ -1,4 +1,4 @@
-import React from 'react'
+
 import{ ALL_COURSE_FAIL, ALL_COURSE_REQUEST, ALL_COURSE_SUCCESS, CREATE_COURSE_FAIL, CREATE_COURSE_REQUEST, CREATE_COURSE_SUCCESS, DELETE_COURSE_FAIL, DELETE_COURSE_REQUEST, DELETE_COURSE_SUCCESS, GET_COURSE_DETAILS_FAIL, GET_COURSE_DETAILS_REQUEST, GET_COURSE_DETAILS_SUCCESS, UPDATE_COURSE_REQUEST, UPDATE_COURSE_SUCCESS }from "./actionType";
 
 
@@ -131,12 +131,7 @@ const CourseReducer = (state = initiailState, action) =>{
                       updateCourse: action.payload,
                       error: "",
                     };
-                  case UPDATE_COURSE_SUCCESS:
-                    return {
-                      ...state,
-                      loading: false,
-                      error: action.payload,
-                    };
+                  
     
     
     

@@ -3,7 +3,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Home from './Component/Home/Home';
-import Footer from './Component/Home/Footer';
 import Login from './Component/Login/Login';
 import Dashboard from './Component/Dashboard/Dashboard';
 import Alls from './Component/All students/Alls'

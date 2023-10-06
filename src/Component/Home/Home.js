@@ -6,7 +6,7 @@ import {
   Container,
   Row,
   Col,
-  Section,
+ 
 } from "react-bootstrap";
 import "./Home.css";
 import Footer from "../Home/Footer";

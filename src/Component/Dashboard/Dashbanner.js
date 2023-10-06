@@ -41,7 +41,7 @@ function Dashbanner() {
                     <Row className='bottom-row'>
                         <Col className='md-4'>
                             <div className='avatar-img'>
-                                <img className='avatar' src={Avatar}/>
+                                <img className='avatar' src={Avatar} alt='error'/>
                             </div>
                             <h6>{loginDetails?.username}</h6>
                             <p>{loginDetails?.email}</p>

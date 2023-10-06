@@ -6,7 +6,7 @@ import {BsPencilFill,BsXLg } from 'react-icons/bs';
 import { allcoursecategoryApi, deletecourseCategoryApi } from '../../Store/CourseCategory API/useApi';
 import { useDispatch, useSelector } from 'react-redux';
 import {map,range} from "lodash"
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { BiLeftArrow, BiRightArrow } from 'react-icons/bi';
 import './CourseCategory.css'
 
@@ -34,7 +34,7 @@ function UCpage() {
 
 
 const navigate = useNavigate()
-const params = useParams()
+
 
 
 
@@ -93,22 +93,22 @@ const pageArray = range(1, totalPages + 1);
       {key=key+1}
       </th>
       <td>
-      {item?. id}
+      {item?.id}
       </td>
       <td>
-      {/* {item?. id} */}
+      
 
       {item?.course_category_name}
 
       </td>
       <td>
-      {item?. designation}
+      {item?.designation}
       </td>
       
       <td>
       <Link to={`/updatecoursecategory/${item?.id}`}><BsPencilFill/></Link>
       
-      <a style={{color:'red'}}>< BsXLg onClick={()=> {deleteCourseCategory(item?.id)}}/></a>
+      <a href="style={{color:'red'}}"><BsXLg onClick={()=>{deleteCourseCategory(item?.id)}}/></a>
    
       </td>
      
@@ -177,7 +177,7 @@ const pageArray = range(1, totalPages + 1);
                     {map(pageArray, (page) => (
                       <Col
                         onClick={() => setPages(page)}
-                        className={pages == page && "active"}
+                        className={pages === page && "active"}
                         style={{
                           display: "flex",
                           alignContent: "center",

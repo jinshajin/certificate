@@ -28,7 +28,7 @@ function UCpage() {
 
   useEffect(() => {
     dispatch(getcourseApi(params.id));
-  }, []);
+  },);
 
   useEffect(() => {
     setState(single);

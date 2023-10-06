@@ -1,12 +1,12 @@
 import React ,{useEffect}from "react";
 import Layout from "../Layout/Layout";
-import { Card, Row, Col, Button,Table,Input,Pagination,PaginationItem,PaginationLink, Container, NavItem} from "reactstrap";
+import { Card, Row, Col, Button, Container} from "reactstrap";
 import {map} from "lodash"
 
 import MenAvatar from "./MenAvatar.jpg";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { useSelector, useDispatch} from "react-redux";
-import { navigate,deleteStudentApi, singleviewApi ,updateStudentApi} from "../../Store/Students API/useApi";
+import { deleteStudentApi, singleviewApi } from "../../Store/Students API/useApi";
 
 const SSpage =() => {
 
@@ -26,18 +26,18 @@ const SSpage =() => {
  
   useEffect(() =>{
    dispatch(singleviewApi(params.id))
-  },[])
+  },)
 
 
 const deleteStudent = () => {
   dispatch(deleteStudentApi(params.id,navigate))
 }
 
-const updateStudent =()=>{
-  dispatch(updateStudentApi(params.id,navigate))
-}
+// const updateStudent =()=>{
+//   dispatch(updateStudentApi(params.id,navigate))
+// }
 
-  // const tableData = singleview?.results
+  
 
 
 const  course =  single?.student_courses;
