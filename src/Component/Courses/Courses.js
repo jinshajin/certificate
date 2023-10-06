@@ -32,6 +32,10 @@ const [pages, setPages] = useState(1)
 const totalPages = Math.ceil(allcourse?.count / 10);
 const pageArray = range(1, totalPages + 1);
 
+
+
+
+
 useEffect(() =>{
   dispatch(allcourseApi(pages))
  },[dispatch,pages])
