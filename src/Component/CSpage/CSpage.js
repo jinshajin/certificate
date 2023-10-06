@@ -16,7 +16,7 @@ function CSpage() {
 const HandleCreateStudent=(e)=>{
   e.preventDefault()
   dispatch(studentCreateApi(state,navigate))
-}g
+}
 
 
 
