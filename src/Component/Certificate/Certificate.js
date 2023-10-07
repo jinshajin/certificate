@@ -6,7 +6,7 @@ import greenbg from "./greenbg.jpeg";
 import { singleviewApi } from "../../Store/Students API/useApi";
 import {  useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+// import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { map } from "lodash";
 
 function Certificate() {
