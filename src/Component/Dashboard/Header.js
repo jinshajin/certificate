@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import { GoThreeBars  } from "react-icons/go";
+import { GoDash } from "react-icons/go";
 import {useDispatch, useSelector} from "react-redux"
 import './Header.css'
 import { useNavigate } from 'react-router-dom';
@@ -38,7 +38,7 @@ function Header() {
          
           {/* <Nav.Link href="#action1">Home</Nav.Link> */}
           <div className='hicon'>
-          <GoThreeBars/>
+          <GoDash/>
           </div>
           <Form className="d-flex">
           <Form.Control
