@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap'
-import { BsFacebook,BsTwitter,BsGoogle} from "react-icons/bs";
+// import { BsFacebook,BsTwitter,BsGoogle} from "react-icons/bs";
 import './Footer.css'
 
 

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Container } from 'reactstrap'
-import { BiHomeCircle } from "react-icons/bi";
-import { BsPersonCircle} from "react-icons/bs";
-import { ImOffice } from "react-icons/im";
-import { MdSupervisorAccount } from "react-icons/md";
+// import { BiHomeCircle } from "react-icons/bi";
+// import { BsPersonCircle} from "react-icons/bs";
+// import { ImOffice } from "react-icons/im";
+// import { MdSupervisorAccount } from "react-icons/md";
 import './Sidebar.css'
 import { Link } from 'react-router-dom';
 
