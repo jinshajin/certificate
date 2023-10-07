@@ -8,7 +8,7 @@ import {
   deletestudentcourseApi,
 } from "../../Store/Students API/useApi";
 import { map, range } from "lodash";
-// import { BiLeftArrow, BiRightArrow } from "react-icons/bi";
+import { BiLeftArrow, BiRightArrow } from "react-icons/bi";
 
 function Studentcourse() {
   const dispatch = useDispatch();
