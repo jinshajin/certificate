@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { Button, Container } from "react-bootstrap";
-import xanthronelogo from "../Certificate/xanthronelogo"
 import logo from "./logo.png";
 import greenbg from "./greenbg.jpeg";
 import { singleviewApi } from "../../Store/Students API/useApi";
