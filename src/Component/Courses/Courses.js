@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import Layout from '../Layout/Layout'
 import {Card,Table,Col,Row} from 'reactstrap';
-import { RiPencilFill} from "react-icons/ri";
-import { BsXLg} from "react-icons/bs";
+// import { RiPencilFill} from "react-icons/ri";
+// import { BsXLg} from "react-icons/bs";
 import { useNavigate,Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { allcourseApi, deletecourseApi } from '../../Store/Course API/useApi';
 import {map,range} from "lodash"
-import { BiLeftArrow, BiRightArrow } from 'react-icons/bi';
+// import { BiLeftArrow, BiRightArrow } from 'react-icons/bi';
 
 
 function Courses() {
