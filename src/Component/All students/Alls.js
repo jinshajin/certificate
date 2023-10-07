@@ -5,10 +5,10 @@ import {Table,Card,Col,Row} from 'reactstrap';
 import './Alls.css'
 import { studentApi } from '../../Store/Students API/useApi';
 import { useDispatch, useSelector } from 'react-redux';
-import { BsEyeFill } from 'react-icons/bs';
+// import { BsEyeFill } from 'react-icons/bs';
 import {map,range} from "lodash"
 import { Link } from 'react-router-dom';
-// import { BiLeftArrow, BiRightArrow } from 'react-icons/bi';
+import { BiLeftArrow, BiRightArrow } from 'react-icons/bi';
 
 
 const Alls =() => {
